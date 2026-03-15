@@ -1,0 +1,23 @@
+{
+  "name": "aitesters",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "format": "biome format --write",
+    "check": "biome check --write --unsafe",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.6",
+    "@playwright/test": "1.58.2",
+    "@types/node": "24.10.1",
+    "globals": "17.4.0",
+    "jiti": "2.6.1",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "24.13.1",
+    "npm": "11.8.0"
+  }
+}
